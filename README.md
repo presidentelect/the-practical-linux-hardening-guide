@@ -263,12 +263,12 @@ Most of the Linux distributions will allow you to encrypt your disks before inst
 
 If you use an alternative installation method (e.g. from `debootstrap`) you can create an [encrypted disk manually](#disk-partitions).
 
-Before this you should to answer the following questions:
+Before this you should be able to answer the following questions:
 
 - What part of filesystem do you want to encrypt?
   * only user data
   * user data and system data
-- How should `swap`, `/tmp` and other be taken care of?
+- How should `swap`, `/tmp` and others be taken care of?
   * disable or mount as ramdisk
   * encrypt (separately of as part of full)
 - How should encrypted parts of the disk be unlocked?
@@ -297,11 +297,11 @@ In addition, the `/boot` partition may be a weak point if you use encryption met
 
 Historically it has been necessary to leave `/boot` unencrypted because bootloaders didn't support decrypting block devices. However, there are some dangers to leaving the bootloader and ramdisks unencrypted.
 
-Before this you should to answer the following questions:
+Before this you should be able to answer the following questions:
 
 - Where your `/boot` partition is stored?
   * the same place where stored `/`
-  * separately partition
+  * separate partition
   * external flash drive
 
 The following recipe should be made after installing the system (however, these steps are included in this section to avoid mixing issues).
