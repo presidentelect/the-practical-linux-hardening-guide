@@ -263,7 +263,7 @@ Most of the Linux distributions will allow you to encrypt your disks before inst
 
 If you use an alternative installation method (e.g. from `debootstrap`) you can create an [encrypted disk manually](#disk-partitions).
 
-Before this you should to answer the following questions:
+Before this you should be able to answer the following questions:
 
 - What part of filesystem do you want to encrypt?
   * only user data
